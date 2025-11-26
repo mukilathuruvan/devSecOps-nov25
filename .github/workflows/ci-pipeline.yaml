@@ -38,5 +38,5 @@ jobs:
         with:
           projectBaseDir: .
           args: >
-            -Dsonar.projectKey=${{ secrets.PROJECT_KEY }}
-            -Dsonar.organization=${{ secrets.ORGANIZATION }}
+            -Dsonar.projectKey=mukilathuruvan_devSecOps-nov25
+            -Dsonar.organization=mukilathuruvan
