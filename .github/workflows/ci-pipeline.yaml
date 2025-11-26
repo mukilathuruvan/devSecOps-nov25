@@ -37,3 +37,6 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         with:
           projectBaseDir: .
+          args: >
+            -Dsonar.projectKey=mukilathuruvan_devSecOps-nov25
+            -Dsonar.organization=mukilathuruvan
